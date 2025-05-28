@@ -5,3 +5,6 @@ weasyprint
 PyMuPDF
 Pillow
 Jinja2
+libpango
+libcairo
+libgdk-pixbuf
