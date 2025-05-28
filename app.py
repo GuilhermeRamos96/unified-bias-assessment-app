@@ -172,7 +172,7 @@ with st.sidebar:
         if st.button(f"Carregar Cenário Simulado {st.session_state.selected_tool}", key=load_key):
             # Passa o estado ativo para a função de carregamento
             if load_sim_func(sim_scenario, active_state):
-                st.success(f"Cenário \'{sim_scenario}\' carregado para {st.session_state.selected_tool}.\")
+                st.success(f"Cenário '{sim_scenario}' carregado para {st.session_state.selected_tool}.")
                 # Resetar a seção atual para a introdução ou info do estudo após carregar
                 st.session_state.current_section = navigation_options[1] # Vai para Info Estudo
                 st.rerun()
