@@ -1,0 +1,67 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos de cache do Streamlit
+.streamlit/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de dados
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# Arquivos de saída
+output/
+exports/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Exceções para templates e assets
+!**/assets/*.html
+!**/assets/*.png
+!**/assets/*.jpg
+!**/assets/*.jpeg
+!**/assets/*.gif
