@@ -407,4 +407,3 @@ st.caption(f"Usando: {st.session_state.selected_tool} | Baseado nos Capítulos 8
 # Debug: Mostrar estado da sessão
 # with st.expander("Debug: Session State"):
 #     st.json({k: v for k, v in st.session_state.items()})
-
