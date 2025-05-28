@@ -179,7 +179,7 @@ with st.sidebar:
             else:
                 st.error("Falha ao carregar cenário.")
     else:
-        st.caption(f"Nenhum cenário simulado disponível para {st.session_state.selected_tool}.\")
+        st.caption(f"Nenhum cenário simulado disponível para {st.session_state.selected_tool}.")
 
 # --- Área Principal (Conteúdo Dinâmico) ---
 st.header(st.session_state.current_section)
