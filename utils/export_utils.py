@@ -11,8 +11,7 @@ def exportar_para_csv(df: pd.DataFrame):
         return None
     try:
         csv_buffer = BytesIO()
-        # Usar utf-8-sig para melhor compatibilidade com Excel
-        df.to_csv(csv_buffer, index=False, encoding=\'utf-8-sig\')
+        # Usar utf-8-sig para melhor compatibilidade com Exce        df.to_csv(csv_buffer, index=False, encoding=\'utf-8-sig\')
         csv_buffer.seek(0)
         return csv_buffer.getvalue()
     except Exception as e:
@@ -32,4 +31,3 @@ def exportar_para_pdf(html_content):
     except Exception as e:
         print(f"Erro ao gerar PDF: {e}")
         return None
-
